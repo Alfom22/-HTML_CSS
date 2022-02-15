@@ -31,22 +31,29 @@ button a {
 }
 
 .banner {
+	display: block;
 	margin: 0 auto;
 	max-width: 1110px;
+	max-height: 10%;
 	background-color: rgb(61, 153, 196);
 	margin-top: 5px;
+	border: 1px solid #000;
 }
 
-.logo_name {
+.banner__block {
+	display: flex;
+	justify-content: space-between;
+}
+.banner__logoname {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	max-height: 95%;
-	margin-left: 5%;
-	border: 5px solid #000;
+	max-height: 50%;
+	margin-left: 10%;
+	border: 1px solid rgb(190, 106, 106);
 }
-.logo_name p {
-	font-size: 3vh;
+.banner__logoname p {
+	font-size: 3vmax;
 	color: brown;
 	font-style: italic;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -54,24 +61,29 @@ button a {
 .logo_img {
 	display: flex;
 	align-items: center;
-	max-height: 70px;
-	margin: 5px 200px 5px 0px	;
+	max-height: 50%;
+	margin: 5% 30% 5% 0;
 }
 
-.buth {
-	font-size: 3vh;
+.banner__help {
+	display: block;
+	font-size: 3vmax;
 	color: brown;
 	border: 2px dotted #000;
 	border-radius: 3px;
 	background-color: rgb(67, 115, 179);
-	min-height: 35px;
-	align-items: center;
-	margin: 0 0 0 100px;
+	max-height: 10%;
+	margin-right: 10%;
 }
-.buth a {
+.banner__help p {
+	display: block;
+	font-size: 60%;
+	border: 1px solid #000;
+}
+.banner__help a {
 	text-decoration: none;
 	color: #000;
-	font-size: 3vh;
+	font-size: 120%;
 }
 
 .body {
