@@ -4,14 +4,14 @@ body {
 .header {
 	margin: 0 auto;
 	max-width: 1110px;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	box-shadow: 3px 3px;
 	border-radius: 0.5em;
 	background-color: rgb(157, 184, 207);
 }
 .headblock {
 	margin: 0 auto;
-	border: 2px solid rgb(126, 66, 66);
+	/*border: 2px solid rgb(126, 66, 66);*/
 }
 .buttons {
 	display: flex;
@@ -37,7 +37,7 @@ button a {
 	max-height: 10%;
 	background-color: rgb(61, 153, 196);
 	margin-top: 5px;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 }
 
 .banner__block {
@@ -50,7 +50,7 @@ button a {
 	justify-content: space-evenly;
 	max-height: 50%;
 	margin-left: 10%;
-	border: 1px solid rgb(190, 106, 106);
+	/*border: 1px solid rgb(190, 106, 106);*/
 }
 .banner__logoname p {
 	font-size: 3vmax;
@@ -69,7 +69,7 @@ button a {
 	display: block;
 	font-size: 3vmax;
 	color: brown;
-	border: 2px dotted #000;
+	/*border: 2px dotted #000;*/
 	border-radius: 3px;
 	background-color: rgb(67, 115, 179);
 	max-height: 10%;
@@ -78,7 +78,7 @@ button a {
 .banner__help p {
 	display: block;
 	font-size: 60%;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 }
 .banner__help a {
 	text-decoration: none;
@@ -104,5 +104,5 @@ button a {
 }
 .text {
 	display: block;
-	font-size: 3vh;	
+	font-size: 3vmax;	
 }
