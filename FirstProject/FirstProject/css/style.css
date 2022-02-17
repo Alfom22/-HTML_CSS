@@ -15,19 +15,21 @@ body {
 }
 .buttons {
 	display: flex;
-	margin: 1%;
+
 	justify-content: space-evenly;
-	}
-.buttons button {
+	padding: 1%;
+		}
+.buttons .button {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 18px;
 	padding: 1%;
 	background-color: rgb(81, 101, 156);
 	border-radius: 2ex;
 }
-button a {
+.button a {
 	text-decoration-line: none;
 	color: #000;
+	font-size: 100%;
 }
 
 .banner {
@@ -38,6 +40,7 @@ button a {
 	background-color: rgb(61, 153, 196);
 	margin-top: 5px;
 	/*border: 1px solid #000;*/
+	border-radius: 1ex;
 }
 
 .banner__block {
@@ -52,44 +55,68 @@ button a {
 	margin-left: 10%;
 	/*border: 1px solid rgb(190, 106, 106);*/
 }
-.banner__logoname p {
-	font-size: 3vmax;
+.banner__logoname div {
+	font-size: 150%;
 	color: brown;
 	font-style: italic;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin-left: 5%;
 }
 .logo_img {
 	display: flex;
 	align-items: center;
 	max-height: 50%;
 	margin: 5% 30% 5% 0;
+	border-radius: 0.5ex;
 }
 
 .banner__help {
-	display: block;
-	font-size: 3vmax;
-	color: brown;
-	/*border: 2px dotted #000;*/
-	border-radius: 3px;
+	display: flex;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	align-items: center;
+	border-radius: 2ex;
 	background-color: rgb(67, 115, 179);
 	max-height: 10%;
 	margin-right: 10%;
 }
-.banner__help p {
-	display: block;
-	font-size: 60%;
-	/*border: 1px solid #000;*/
+.banner__help {
+	display: flex;
 }
-.banner__help a {
+.banner__text {
+	margin: 0 2% 0 3%;
+}
+.banner__phone {
+	color: brown;
+	font-size: 20px;
+	font-weight:700;
+	margin-right: 7px;
+}
+.banner__text > a {
 	text-decoration: none;
 	color: #000;
-	font-size: 120%;
+	font-size: 170%;
+	padding 0 10% 0 1%
+	border: 5px solid #000;
 }
 
+.article_name {
+	display: flex;
+	max-width: 1110px;
+	margin: 0 auto;
+	min-height: 50px;
+	align-items: center;
+
+}
+.article_name__h1 {
+	margin: 0 auto;
+	font-size: 5vmax;
+}	
+	
+}
 .body {
 	margin: 0 auto;
 	max-width: 1113px;
-	margin-top: 1px;
 }
 .body_block {
 	display: flex;
@@ -99,10 +126,10 @@ button a {
 .face {
 	max-width: 30%;
 	float: left;
-	margin: 0 30px 30px 0;
+	margin: 0 1ex 1ex 0;
 
 }
 .text {
 	display: block;
-	font-size: 3vmax;	
+	font-size: 150%;	
 }
