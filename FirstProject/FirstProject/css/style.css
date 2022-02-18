@@ -10,26 +10,33 @@ body {
 	background-color: rgb(157, 184, 207);
 }
 .headblock {
+	display: flex;
 	margin: 0 auto;
+	justify-content: end;
 	/*border: 2px solid rgb(126, 66, 66);*/
 }
 .buttons {
 	display: flex;
-
-	justify-content: space-evenly;
+	min-width: 50%;
+	justify-content: center;
 	padding: 1%;
+	border: 1px solid #000; 
 		}
 .buttons .button {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 18px;
 	padding: 1%;
+	min-width: 30%;
 	background-color: rgb(81, 101, 156);
 	border-radius: 2ex;
+	margin: 0 auto;
 }
 .button a {
 	text-decoration-line: none;
-	color: #000;
+	color: rgb(0, 0, 0);
 	font-size: 100%;
+	display: inline-block;
+	justify-content: center;
 }
 
 .banner {
@@ -100,29 +107,38 @@ body {
 	border: 1px solid #000;*/
 }
 
+.space {
+	/*padding-top: 0.5%;*/
+	margin-bottom: 0.2%;
+}
+
 .article_name {
 	display: flex;
 	max-width: 1110px;
 	margin: 0 auto;
 	min-height: 50px;
 	align-items: center;
+	background-color: rgb(131, 125, 125);
+	border-radius: 00.5em 0.5em 0 0;
 
 }
 .article_name__h1 {
 	margin: 0 auto;
 	font-size: 5vmax;
 }	
-	
-}
+
+
 .body {
 	margin: 0 auto;
-	max-width: 1113px;
+	max-width: 1110px;
 }
 .body_block {
 	display: flex;
 	margin: 0 auto;
 	margin-top: 1px;
-	max-width: 1113px;
+	max-width: 1110px;
+	padding: 0 1em 0 1em;
+	background-color: rgb(150, 143, 143);
 }
 .face {
 	max-width: 30%;
@@ -134,4 +150,37 @@ body {
 	display: block;
 	font-size: 150%;
 	text-align: justify;	
+}
+
+.footer {
+	display: flex;
+	min-height: 50px;
+	justify-content: center;
+}
+.footer__bcover {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(131, 125, 125);
+	min-height: 45px;
+	min-width: 1110px;
+	border-radius: 0 0 0.5ex 0.5ex;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+}
+.footer__logo {
+	display: flex;
+	color: #000;
+	min-width: 33.333%;
+	justify-content: center;
+}
+.footer__help {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	min-width: 33.333%;
+}
+.footer__text2 .footer__text3 {
+	min-width: 50%;
+
 }
