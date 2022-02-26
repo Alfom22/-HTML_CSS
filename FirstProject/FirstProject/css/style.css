@@ -1,6 +1,16 @@
 body {
 	background-color: rgb(198, 227, 238);
 }
+.aza {
+	display: flex;
+	justify-content: center;
+	color red;
+	top: 50%;
+}
+.aza2 {
+	border: 1px solid rgb(250, 247, 247);;
+	background-color: rgb(8, 53, 53);
+}
 .header {
 	margin: 0 auto;
 	max-width: 1110px;

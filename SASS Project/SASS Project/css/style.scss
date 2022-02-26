@@ -1,0 +1,19 @@
+.text {
+    background-color: rgb(216, 213, 22);
+    border: 5px solid rgb(16, 165, 16);
+    padding: 10px;
+}
+.text__p{
+    display: block;
+    border: 1px solid #000;
+    background-color: rgb(202, 140, 140);
+    font-size: 20px;
+    .P {
+        &:first-child {
+            color: rgb(189, 16, 16);
+    }
+        &:nth-child(3) {
+            color:blue;
+        }
+    }
+    }

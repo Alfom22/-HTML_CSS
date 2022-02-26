@@ -1,0 +1,21 @@
+.text {
+  background-color: #d8d516;
+  border: 5px solid #10a510;
+  padding: 10px;
+}
+
+.text__p {
+  display: block;
+  border: 1px solid #000;
+  background-color: #ca8c8c;
+  font-size: 20px;
+}
+
+.text__p .P:first-child {
+  color: #bd1010;
+}
+
+.text__p .P:nth-child(3) {
+  color: blue;
+}
+/*# sourceMappingURL=style.css.map */
