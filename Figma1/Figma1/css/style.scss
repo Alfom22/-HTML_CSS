@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-between;
     background-color: rgb(255, 255, 255);
+    padding-left: 4%;
+    & .header__text {
+        font-size: 18px;
+    }
     & .header__left, .header__right {
         display: flex;
         width: 50%;
@@ -9,6 +13,7 @@
         &>div {
             margin: 0 2%;
         }
+
     }
     & .header__right {
         justify-content: end;
@@ -26,10 +31,7 @@
 
 .banner {
     display: flex;
-    & .banner__text5 {
-        display: flex;
-        justify-content:space-around
-    }
+    padding-right: 1%;
 }
 
 .bannerimg {
@@ -49,6 +51,8 @@
 }
 
 .banner__text {
+    padding-left: 5%;
+    padding-top: 12%;
     & .banner__text1 {
         background-color: #E2B013;
         color: #ffffff;
@@ -64,8 +68,15 @@
     }
     & .banner__text4 {
         font-size: 26px;
+        padding: 3% 0 10% 0;
+    }
+    & .banner__text5 {
+        max-width: 522px;
+        display: flex;
+        justify-content:space-between;
     }
 }
+
 
 .banner__image {
     
